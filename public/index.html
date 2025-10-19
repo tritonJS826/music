@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Music Library</title>
+  <title>My Media Library</title>
   <style>
-    body { font-family: sans-serif; margin: 40px auto; padding: 0 20px; color: #222; }
+    body { font-family: sans-serif; margin: 40px auto; padding: 0 20px; color: #222; max-width: 800px; }
     h1 { text-align: center; margin-bottom: 20px; }
-    input { width: 100%; padding: 10px; font-size: 16px; margin-bottom: 10px; border-radius: 8px; border: 1px solid #ccc; }
+    .inputText { width: 100%; padding: 10px; font-size: 16px; margin-bottom: 10px; border-radius: 8px; border: 1px solid #ccc; }
     ul { list-style: none; padding: 0; margin: 0; }
     li { padding: 8px 0; border-bottom: 1px solid #eee; cursor: pointer; transition: background 0.2s; }
     li:hover { background: #f6f6f6; }
@@ -16,15 +16,16 @@
     button:hover:not(:disabled) { background: #f0f0f0; }
     button:disabled { opacity: 0.4; cursor: not-allowed; }
     .counter { text-align: center; margin-top: 10px; font-size: 14px; color: #666; }
-    audio { width: 100%; margin-top: 20px; border-radius: 8px; }
+    audio, video, img { width: 100%; margin-top: 20px; border-radius: 8px; display: none; }
+    img { max-height: 500px; object-fit: contain; }
     .search-mode { display: flex; justify-content: center; margin-bottom: 10px; gap: 10px; }
     #currentTrack { text-align: center; margin-top: 10px; font-weight: bold; }
     .autoplay-next { text-align: center; margin-top: 10px; }
   </style>
 </head>
 <body>
-  <h1>🎵 My Music</h1>
-  <input type="text" id="search" placeholder="Search tracks..." />
+  <h1>🎬 My Media</h1>
+  <input class="inputText" type="text" id="search" placeholder="Search..." />
   <div class="search-mode">
     <button id="toggleMode">Mode: Fuzzy</button>
   </div>
@@ -37,23 +38,25 @@
   </div>
 
   <div class="counter" id="counter"></div>
-  <audio id="player" controls></audio>
+  <audio id="audioPlayer" controls></audio>
+  <video id="videoPlayer" controls></video>
+  <img id="imageViewer" />
   <div id="currentTrack"></div>
   <div class="autoplay-next">
-    <label><input type="checkbox" id="autoplayNext" /> Auto-play next track</label>
+    <label><input type="checkbox" id="autoplayNext" /> Auto-play next</label>
   </div>
 
   <script>
     const ITEMS_PER_PAGE = 10;
-    let music = [];
+    let media = [];
     let filtered = [];
     let currentPage = 1;
     let exactMatch = false;
-    let currentTrackIndex = -1;
+    let currentIndex = -1;
 
-    async function loadMusic() {
-      const res = await fetch("music.json");
-      music = await res.json();
+    async function loadMedia() {
+      const res = await fetch("media.json");
+      media = await res.json();
 
       const params = new URLSearchParams(location.search);
       const q = params.get("q") || "";
@@ -76,7 +79,7 @@
 
     function applyFilters(query) {
       const q = query.toLowerCase().trim();
-      filtered = music.filter(m => {
+      filtered = media.filter(m => {
         const text = m.path.toLowerCase();
         return exactMatch ? text.includes(q) : fuzzyMatch(text, q);
       });
@@ -95,19 +98,18 @@
       list.innerHTML = "";
       pageItems.forEach((m, idx) => {
         const li = document.createElement("li");
-        li.textContent = m.path.replace("music/", "");
-        li.onclick = () => playTrack(start + idx); // use index in filtered array
-        li.id = `track-${start + idx}`;
+        li.textContent = `${m.path}`;
+        li.onclick = () => playItem(start + idx);
+        li.id = `item-${start + idx}`;
         list.appendChild(li);
       });
 
-      highlightCurrentTrack();
-
+      highlightCurrent();
       const totalPages = Math.ceil(filtered.length / ITEMS_PER_PAGE) || 1;
       document.getElementById("counter").textContent =
         filtered.length === 0
-          ? "No tracks found"
-          : `Showing ${start + 1}-${Math.min(end, filtered.length)} of ${filtered.length} tracks (Page ${currentPage}/${totalPages})`;
+          ? "No media found"
+          : `Showing ${start + 1}-${Math.min(end, filtered.length)} of ${filtered.length} files (Page ${currentPage}/${totalPages})`;
 
       document.getElementById("prev").disabled = currentPage <= 1;
       document.getElementById("next").disabled = currentPage >= totalPages;
@@ -121,39 +123,59 @@
       history.replaceState(null, "", `?${params.toString()}`);
     }
 
-    function playTrack(index) {
-      if (index < 0 || index >= filtered.length) return;
-      const trackPath = filtered[index].path;
-      const player = document.getElementById("player");
-      const current = document.getElementById("currentTrack");
-
-      currentTrackIndex = index;
-      player.src = trackPath;
-      current.textContent = "Now playing: " + trackPath.replace("music/", "");
-      player.play();
-      highlightCurrentTrack();
+    function hideAllPlayers() {
+      ["audioPlayer", "videoPlayer", "imageViewer"].forEach(id => {
+        document.getElementById(id).style.display = "none";
+      });
     }
 
-    function highlightCurrentTrack() {
+    function playItem(index) {
+      if (index < 0 || index >= filtered.length) return;
+      const item = filtered[index];
+      const current = document.getElementById("currentTrack");
+      currentIndex = index;
+      hideAllPlayers();
+
+      const audio = document.getElementById("audioPlayer");
+      const video = document.getElementById("videoPlayer");
+      const image = document.getElementById("imageViewer");
+
+      if (item.type === "audio") {
+        audio.src = item.path;
+        audio.style.display = "block";
+        audio.play();
+      } else if (item.type === "video") {
+        video.src = item.path;
+        video.style.display = "block";
+        video.play();
+      } else if (item.type === "image") {
+        image.src = item.path;
+        image.style.display = "block";
+      }
+
+      current.textContent = `Now viewing: ${item.name}`;
+      highlightCurrent();
+    }
+
+    function highlightCurrent() {
       document.querySelectorAll("#list li").forEach(li => li.style.fontWeight = "normal");
-      if (currentTrackIndex !== -1) {
-        const li = document.getElementById(`track-${currentTrackIndex}`);
+      if (currentIndex !== -1) {
+        const li = document.getElementById(`item-${currentIndex}`);
         if (li) li.style.fontWeight = "bold";
       }
     }
 
+    // search, pagination, shuffle, etc
     document.getElementById("search").oninput = e => {
       currentPage = 1;
       applyFilters(e.target.value);
     };
-
     document.getElementById("toggleMode").onclick = () => {
       exactMatch = !exactMatch;
       document.getElementById("toggleMode").textContent = `Mode: ${exactMatch ? "Exact" : "Fuzzy"}`;
       currentPage = 1;
       applyFilters(document.getElementById("search").value);
     };
-
     document.getElementById("prev").onclick = () => {
       if (currentPage > 1) {
         currentPage--;
@@ -161,7 +183,6 @@
         updateURL(document.getElementById("search").value);
       }
     };
-
     document.getElementById("next").onclick = () => {
       const totalPages = Math.ceil(filtered.length / ITEMS_PER_PAGE);
       if (currentPage < totalPages) {
@@ -170,24 +191,25 @@
         updateURL(document.getElementById("search").value);
       }
     };
-
     document.getElementById("shuffle").onclick = () => {
-      if (filtered.length === 0) return alert("No tracks to shuffle!");
+      if (filtered.length === 0) return alert("No media to shuffle!");
       const randomIndex = Math.floor(Math.random() * filtered.length);
-      playTrack(randomIndex);
+      playItem(randomIndex);
     };
 
-    // Auto-play next track
-    document.getElementById("player").addEventListener("ended", () => {
-      if (document.getElementById("autoplayNext").checked) {
-        const nextIndex = currentTrackIndex + 1;
-        if (nextIndex < filtered.length) {
-          playTrack(nextIndex);
+    // autoplay next for audio/video
+    ["audioPlayer", "videoPlayer"].forEach(id => {
+      document.getElementById(id).addEventListener("ended", () => {
+        if (document.getElementById("autoplayNext").checked) {
+          const nextIndex = currentIndex + 1;
+          if (nextIndex < filtered.length) {
+            playItem(nextIndex);
+          }
         }
-      }
+      });
     });
 
-    loadMusic();
+    loadMedia();
   </script>
 </body>
 </html>

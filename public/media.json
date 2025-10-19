@@ -1,0 +1,1432 @@
+[
+  {
+    "name": "p-simpsons.webp",
+    "path": "media/images/p-simpsons.webp",
+    "type": "image"
+  },
+  {
+    "name": "All the Fixings - Zachariah Hickman.mp3",
+    "path": "media/music/YouTubeAudioLibraryLicense/All the Fixings - Zachariah Hickman.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "American Idle - RKVC.mp3",
+    "path": "media/music/YouTubeAudioLibraryLicense/American Idle - RKVC.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Backwoods BBQ - Chris Haugen.mp3",
+    "path": "media/music/YouTubeAudioLibraryLicense/Backwoods BBQ - Chris Haugen.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Blue Day - Freedom Trail Studio.mp3",
+    "path": "media/music/YouTubeAudioLibraryLicense/Blue Day - Freedom Trail Studio.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Blue Mood - Robert Munzinger.mp3",
+    "path": "media/music/YouTubeAudioLibraryLicense/Blue Mood - Robert Munzinger.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Break Your Lock and Key - Mini Vandals.mp3",
+    "path": "media/music/YouTubeAudioLibraryLicense/Break Your Lock and Key - Mini Vandals.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Breeze - Telecasted.mp3",
+    "path": "media/music/YouTubeAudioLibraryLicense/Breeze - Telecasted.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Buckeye Bonzai - Vans in Japan.mp3",
+    "path": "media/music/YouTubeAudioLibraryLicense/Buckeye Bonzai - Vans in Japan.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Campfire - Telecasted.mp3",
+    "path": "media/music/YouTubeAudioLibraryLicense/Campfire - Telecasted.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Cattle - Telecasted.mp3",
+    "path": "media/music/YouTubeAudioLibraryLicense/Cattle - Telecasted.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Crops - Telecasted.mp3",
+    "path": "media/music/YouTubeAudioLibraryLicense/Crops - Telecasted.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Freedom - Dan Lebowitz.mp3",
+    "path": "media/music/YouTubeAudioLibraryLicense/Freedom - Dan Lebowitz.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Get Yer Glow - Dan Lebowitz.mp3",
+    "path": "media/music/YouTubeAudioLibraryLicense/Get Yer Glow - Dan Lebowitz.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Heads Up - The 126ers.mp3",
+    "path": "media/music/YouTubeAudioLibraryLicense/Heads Up - The 126ers.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Late Night Train - Vans in Japan.mp3",
+    "path": "media/music/YouTubeAudioLibraryLicense/Late Night Train - Vans in Japan.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Motor Hums - The 126ers.mp3",
+    "path": "media/music/YouTubeAudioLibraryLicense/Motor Hums - The 126ers.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Out On My Skateboard.mp3",
+    "path": "media/music/YouTubeAudioLibraryLicense/Out On My Skateboard.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Outta Time - RKVC.mp3",
+    "path": "media/music/YouTubeAudioLibraryLicense/Outta Time - RKVC.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Pouring Out - Asher Fulero.mp3",
+    "path": "media/music/YouTubeAudioLibraryLicense/Pouring Out - Asher Fulero.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Pressure Cooker - Jeremy Korpas.mp3",
+    "path": "media/music/YouTubeAudioLibraryLicense/Pressure Cooker - Jeremy Korpas.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Rooster - Telecasted.mp3",
+    "path": "media/music/YouTubeAudioLibraryLicense/Rooster - Telecasted.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Simpler Times - The 126ers.mp3",
+    "path": "media/music/YouTubeAudioLibraryLicense/Simpler Times - The 126ers.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Smokey's Lounge - TrackTribe.mp3",
+    "path": "media/music/YouTubeAudioLibraryLicense/Smokey's Lounge - TrackTribe.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Soul Food - Chris Haugen.mp3",
+    "path": "media/music/YouTubeAudioLibraryLicense/Soul Food - Chris Haugen.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Spy vs Spy - DJ Williams.mp3",
+    "path": "media/music/YouTubeAudioLibraryLicense/Spy vs Spy - DJ Williams.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Stars Align - The 126ers.mp3",
+    "path": "media/music/YouTubeAudioLibraryLicense/Stars Align - The 126ers.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Sweet Relief - Zachariah Hickman.mp3",
+    "path": "media/music/YouTubeAudioLibraryLicense/Sweet Relief - Zachariah Hickman.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "That One Bar Scene - RKVC.mp3",
+    "path": "media/music/YouTubeAudioLibraryLicense/That One Bar Scene - RKVC.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "The Beacon - Zachariah Hickman.mp3",
+    "path": "media/music/YouTubeAudioLibraryLicense/The Beacon - Zachariah Hickman.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "The Goon's Loose - Nathan Moore.mp3",
+    "path": "media/music/YouTubeAudioLibraryLicense/The Goon's Loose - Nathan Moore.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "The Moon Drops - Nathan Moore.mp3",
+    "path": "media/music/YouTubeAudioLibraryLicense/The Moon Drops - Nathan Moore.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Warships - The 126ers.mp3",
+    "path": "media/music/YouTubeAudioLibraryLicense/Warships - The 126ers.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Alannah Myles - black velvet.mp3",
+    "path": "media/music/customPlaylist/Alannah Myles - black velvet.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Alex Who - Then and Now.mp3",
+    "path": "media/music/customPlaylist/Alex Who - Then and Now.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Alphaville - Forever Young (megapesni.fm).mp3",
+    "path": "media/music/customPlaylist/Alphaville - Forever Young (megapesni.fm).mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Amy Macdonald - lets start a band.mp3",
+    "path": "media/music/customPlaylist/Amy Macdonald - lets start a band.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Ave maria.mp3",
+    "path": "media/music/customPlaylist/Ave maria.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Ave maria2.mp3",
+    "path": "media/music/customPlaylist/Ave maria2.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Blues Saraceno - Run On.mp3",
+    "path": "media/music/customPlaylist/Blues Saraceno - Run On.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Blues saraceno - Before the storm.mp3",
+    "path": "media/music/customPlaylist/Blues saraceno - Before the storm.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Blues saraceno - Evil ways.mp3",
+    "path": "media/music/customPlaylist/Blues saraceno - Evil ways.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Boyarskiy - далека дорога твоя.mp3",
+    "path": "media/music/customPlaylist/Boyarskiy - далека дорога твоя.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Cage The Elephant.mp3",
+    "path": "media/music/customPlaylist/Cage The Elephant.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Clutch - electric worry.mp3",
+    "path": "media/music/customPlaylist/Clutch - electric worry.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Clutch - the regulator.mp3",
+    "path": "media/music/customPlaylist/Clutch - the regulator.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Dire straits - brothers in arms.mp3",
+    "path": "media/music/customPlaylist/Dire straits - brothers in arms.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Django unchained.mp3",
+    "path": "media/music/customPlaylist/Django unchained.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Drapht - down.mp3",
+    "path": "media/music/customPlaylist/Drapht - down.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Eminem – Sing For The Moment.mp3",
+    "path": "media/music/customPlaylist/Eminem – Sing For The Moment.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Faizan khurshid - i see fire (ed sheeran).mp3",
+    "path": "media/music/customPlaylist/Faizan khurshid - i see fire (ed sheeran).mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Fall Out Boy - Centuries.mp3",
+    "path": "media/music/customPlaylist/Fall Out Boy - Centuries.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Ghoultown - drink with the living dead.mp3",
+    "path": "media/music/customPlaylist/Ghoultown - drink with the living dead.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Gorillaz - Clint Eastwood.mp3",
+    "path": "media/music/customPlaylist/Gorillaz - Clint Eastwood.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Grazhdanskaya_Oborona_Vselenskaya_bolshaya_lyubov.mp3",
+    "path": "media/music/customPlaylist/Grazhdanskaya_Oborona_Vselenskaya_bolshaya_lyubov.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Green Day - boulevard of broken dreams.mp3",
+    "path": "media/music/customPlaylist/Green Day - boulevard of broken dreams.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Highwayman.mp3",
+    "path": "media/music/customPlaylist/Highwayman.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Hyperchild - Wonderful Life (Black Cover).mp3",
+    "path": "media/music/customPlaylist/Hyperchild - Wonderful Life (Black Cover).mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Iggy Pop - the passenger.mp3",
+    "path": "media/music/customPlaylist/Iggy Pop - the passenger.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Imagine Dragons - Believer.mp3",
+    "path": "media/music/customPlaylist/Imagine Dragons - Believer.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Imagine Dragons - Radiactive.mp3",
+    "path": "media/music/customPlaylist/Imagine Dragons - Radiactive.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Iron Horse - Unforgiven.mp3",
+    "path": "media/music/customPlaylist/Iron Horse - Unforgiven.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Jeff Buckley - Hallelujah.mp3",
+    "path": "media/music/customPlaylist/Jeff Buckley - Hallelujah.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Joan Osborne - One Of Us.mp3",
+    "path": "media/music/customPlaylist/Joan Osborne - One Of Us.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Kari Kimmel - Black.mp3",
+    "path": "media/music/customPlaylist/Kari Kimmel - Black.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Karna Tatarinova - Последняя поэма.mp3",
+    "path": "media/music/customPlaylist/Karna Tatarinova - Последняя поэма.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Larkin Poe - bleach blonde bottle blues.mp3",
+    "path": "media/music/customPlaylist/Larkin Poe - bleach blonde bottle blues.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Leonard Cohen — Nevermind.mp3",
+    "path": "media/music/customPlaylist/Leonard Cohen — Nevermind.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Luis Enrique Bacalov - Django.mp3",
+    "path": "media/music/customPlaylist/Luis Enrique Bacalov - Django.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Marty Robbins - big iron.mp3",
+    "path": "media/music/customPlaylist/Marty Robbins - big iron.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Memoir - #SayHerName.mp3",
+    "path": "media/music/customPlaylist/Memoir - #SayHerName.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Michael Malarkey - the greatest trick i know.mp3",
+    "path": "media/music/customPlaylist/Michael Malarkey - the greatest trick i know.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Neil Young - Heart of Gold.mp3",
+    "path": "media/music/customPlaylist/Neil Young - Heart of Gold.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Noize MC - hiphopera.mp3",
+    "path": "media/music/customPlaylist/Noize MC - hiphopera.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Or3o - help me.mp3",
+    "path": "media/music/customPlaylist/Or3o - help me.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Robert Cray - wont be coming home.mp3",
+    "path": "media/music/customPlaylist/Robert Cray - wont be coming home.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Shelby Merry - when the night is long.mp3",
+    "path": "media/music/customPlaylist/Shelby Merry - when the night is long.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "The Real Folk Blues.mp3",
+    "path": "media/music/customPlaylist/The Real Folk Blues.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "The Struts - body talks.mp3",
+    "path": "media/music/customPlaylist/The Struts - body talks.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "The devil makes three - never learn.mp3",
+    "path": "media/music/customPlaylist/The devil makes three - never learn.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "The skiffle Billy cocktail - bones for gold.mp3",
+    "path": "media/music/customPlaylist/The skiffle Billy cocktail - bones for gold.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "The white buffalo - oh darling whath have I done.mp3",
+    "path": "media/music/customPlaylist/The white buffalo - oh darling whath have I done.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "The_BossHoss_-_Little_Help_feat_Mimi_Josy_(Hydr0.org).mp3",
+    "path": "media/music/customPlaylist/The_BossHoss_-_Little_Help_feat_Mimi_Josy_(Hydr0.org).mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Tim McMorris - life is beautiful.mp3",
+    "path": "media/music/customPlaylist/Tim McMorris - life is beautiful.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Whitey Morgan and the 78s - waitin round to die.mp3",
+    "path": "media/music/customPlaylist/Whitey Morgan and the 78s - waitin round to die.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Yann Tiersen - La Valse d'Amelie (piano).mp3",
+    "path": "media/music/customPlaylist/Yann Tiersen - La Valse d'Amelie (piano).mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Yoko Kanno - Seatbelts - The real folk blues.mp3",
+    "path": "media/music/customPlaylist/Yoko Kanno - Seatbelts - The real folk blues.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "attackOnTitansBarricades.mp3",
+    "path": "media/music/customPlaylist/attackOnTitansBarricades.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Amen.mp3",
+    "path": "media/music/customPlaylist/blues/Black holy wiskey/Amen.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Bbq-muzik.mp3",
+    "path": "media/music/customPlaylist/blues/Black holy wiskey/Bbq-muzik.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Beautiful and raw.mp3",
+    "path": "media/music/customPlaylist/blues/Black holy wiskey/Beautiful and raw.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Disappear.mp3",
+    "path": "media/music/customPlaylist/blues/Black holy wiskey/Disappear.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Hey-hey-my-my.mp3",
+    "path": "media/music/customPlaylist/blues/Black holy wiskey/Hey-hey-my-my.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "I feel you.mp3",
+    "path": "media/music/customPlaylist/blues/Black holy wiskey/I feel you.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Man of steel.mp3",
+    "path": "media/music/customPlaylist/blues/Black holy wiskey/Man of steel.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "My bride.mp3",
+    "path": "media/music/customPlaylist/blues/Black holy wiskey/My bride.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "One black day.mp3",
+    "path": "media/music/customPlaylist/blues/Black holy wiskey/One black day.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "War.mp3",
+    "path": "media/music/customPlaylist/blues/Black holy wiskey/War.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Whiskey saves.mp3",
+    "path": "media/music/customPlaylist/blues/Black holy wiskey/Whiskey saves.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Beth Hart & Joe Bonamassa - Lullaby Of The Leaves.mp3",
+    "path": "media/music/customPlaylist/blues/Bonamassa/Beth Hart & Joe Bonamassa - Lullaby Of The Leaves.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Jimmy Barnes & Joe Bonamassa - In a broken dream.mp3",
+    "path": "media/music/customPlaylist/blues/Bonamassa/Jimmy Barnes & Joe Bonamassa - In a broken dream.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Joe Bonamassa - Get Back My Tomorrow.mp3",
+    "path": "media/music/customPlaylist/blues/Bonamassa/Joe Bonamassa - Get Back My Tomorrow.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Joe Bonamassa - How Deep This River Runs.mp3",
+    "path": "media/music/customPlaylist/blues/Bonamassa/Joe Bonamassa - How Deep This River Runs.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Joe Bonamassa - If Heartaches Were Nickels.mp3",
+    "path": "media/music/customPlaylist/blues/Bonamassa/Joe Bonamassa - If Heartaches Were Nickels.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Joe Bonamassa - Stop!.mp3",
+    "path": "media/music/customPlaylist/blues/Bonamassa/Joe Bonamassa - Stop!.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "deepmp3-ru-jonivan-jones-bar-room-revelations.mp3",
+    "path": "media/music/customPlaylist/blues/jonivan jones/deepmp3-ru-jonivan-jones-bar-room-revelations.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "deepmp3-ru-jonivan-jones-desert-surf-blues.mp3",
+    "path": "media/music/customPlaylist/blues/jonivan jones/deepmp3-ru-jonivan-jones-desert-surf-blues.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "deepmp3-ru-jonivan-jones-down-just-the-same.mp3",
+    "path": "media/music/customPlaylist/blues/jonivan jones/deepmp3-ru-jonivan-jones-down-just-the-same.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "deepmp3-ru-jonivan-jones-over-the-hills.mp3",
+    "path": "media/music/customPlaylist/blues/jonivan jones/deepmp3-ru-jonivan-jones-over-the-hills.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "deepmp3-ru-jonivan-jones-seventy-seven.mp3",
+    "path": "media/music/customPlaylist/blues/jonivan jones/deepmp3-ru-jonivan-jones-seventy-seven.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "deepmp3-ru-jonivan-jones-shake-the-miles.mp3",
+    "path": "media/music/customPlaylist/blues/jonivan jones/deepmp3-ru-jonivan-jones-shake-the-miles.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "deepmp3-ru-jonivan-jones-the-bee-s-knees.mp3",
+    "path": "media/music/customPlaylist/blues/jonivan jones/deepmp3-ru-jonivan-jones-the-bee-s-knees.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "deepmp3-ru-jonivan-jones-the-grind.mp3",
+    "path": "media/music/customPlaylist/blues/jonivan jones/deepmp3-ru-jonivan-jones-the-grind.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Alan Jackson - Freight train.mp3",
+    "path": "media/music/customPlaylist/country/Alan Jackson - Freight train.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Avicii - Wake Me Up.mp3",
+    "path": "media/music/customPlaylist/country/Avicii - Wake Me Up.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Cody Jinks - Heavy Load.mp3",
+    "path": "media/music/customPlaylist/country/Cody Jinks - Heavy Load.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Cody Jinks - Must Be the Whiskey.mp3",
+    "path": "media/music/customPlaylist/country/Cody Jinks - Must Be the Whiskey.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "John Denver - Take Me Home, Country Roads.mp3",
+    "path": "media/music/customPlaylist/country/John Denver - Take Me Home, Country Roads.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "SpiderBait - Black Betty.mp3",
+    "path": "media/music/customPlaylist/country/SpiderBait - Black Betty.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Spiderbait - On My Way.mp3",
+    "path": "media/music/customPlaylist/country/Spiderbait - On My Way.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "The BossHoss - My Favourite Game.mp3",
+    "path": "media/music/customPlaylist/country/The BossHoss - My Favourite Game.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "The dead south - In hell i ll be in good company.mp3",
+    "path": "media/music/customPlaylist/country/The dead south - In hell i ll be in good company.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "The dead south - The recap.mp3",
+    "path": "media/music/customPlaylist/country/The dead south - The recap.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Jhonny_Cash_-_Solitary_Man.mp3",
+    "path": "media/music/customPlaylist/country/cash/Jhonny_Cash_-_Solitary_Man.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Johnny Cash - Further On Up The Road.mp3",
+    "path": "media/music/customPlaylist/country/cash/Johnny Cash - Further On Up The Road.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Johnny Cash - Ghost riders in the sky.mp3",
+    "path": "media/music/customPlaylist/country/cash/Johnny Cash - Ghost riders in the sky.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Johnny Cash - Hurt.mp3",
+    "path": "media/music/customPlaylist/country/cash/Johnny Cash - Hurt.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Johnny Cash - I wont back down.mp3",
+    "path": "media/music/customPlaylist/country/cash/Johnny Cash - I wont back down.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Johnny Cash - The house of the rising sun.mp3",
+    "path": "media/music/customPlaylist/country/cash/Johnny Cash - The house of the rising sun.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Johnny_Cash_-_Heart_Of_Gold.mp3",
+    "path": "media/music/customPlaylist/country/cash/Johnny_Cash_-_Heart_Of_Gold.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Johnny_Cash_-_Redemption.mp3",
+    "path": "media/music/customPlaylist/country/cash/Johnny_Cash_-_Redemption.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Johnny_Cash_-_Redemption_Day.mp3",
+    "path": "media/music/customPlaylist/country/cash/Johnny_Cash_-_Redemption_Day.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "gallows.mp3",
+    "path": "media/music/customPlaylist/gallows.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Oxxxymiron - Где нас нет.mp3",
+    "path": "media/music/customPlaylist/hip-hop/Oxxxymiron - Где нас нет.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Gregory Semenov - Fei космичекские рейнджеры.mp3",
+    "path": "media/music/customPlaylist/instrumental/acoustic/Gregory Semenov - Fei космичекские рейнджеры.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "S.Prokofiev - Romeo Juliette Montagues and Capulets.mp3",
+    "path": "media/music/customPlaylist/instrumental/acoustic/cello/S.Prokofiev - Romeo Juliette Montagues and Capulets.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Yo-Yo Ma-Sergio Leone - Ecstasy Of Gold From The Good- The Bad- And The Ugly.mp3",
+    "path": "media/music/customPlaylist/instrumental/acoustic/cello/Yo-Yo Ma-Sergio Leone - Ecstasy Of Gold From The Good- The Bad- And The Ugly.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Andy McKee - Rylynn.mp3",
+    "path": "media/music/customPlaylist/instrumental/acoustic/guitar/Andy McKee - Rylynn.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Mark Manchina - Avgust rash - Bari Improv.mp3",
+    "path": "media/music/customPlaylist/instrumental/acoustic/guitar/Mark Manchina - Avgust rash - Bari Improv.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Ian Livingstone - Dream Within Dreams - OST Valiant Hearts.mp3",
+    "path": "media/music/customPlaylist/instrumental/acoustic/piano/Ian Livingstone - Dream Within Dreams - OST Valiant Hearts.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Ludovico Einaudi - Fly - OST Valiant Hearts.mp3",
+    "path": "media/music/customPlaylist/instrumental/acoustic/piano/Ludovico Einaudi - Fly - OST Valiant Hearts.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Ludovico Einaudi - In unaltra vita - OST Valiant Hearts The Great War.mp3",
+    "path": "media/music/customPlaylist/instrumental/acoustic/piano/Ludovico Einaudi - In unaltra vita - OST Valiant Hearts The Great War.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Ludovico Einaudi - Nefeli.mp3",
+    "path": "media/music/customPlaylist/instrumental/acoustic/piano/Ludovico Einaudi - Nefeli.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Ludovico Einaudi - Nuvole bianche.mp3",
+    "path": "media/music/customPlaylist/instrumental/acoustic/piano/Ludovico Einaudi - Nuvole bianche.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Moya Oborona Piano.mp3",
+    "path": "media/music/customPlaylist/instrumental/acoustic/piano/Moya Oborona Piano.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Satie - Troisieme Gymnopdie.mp3",
+    "path": "media/music/customPlaylist/instrumental/acoustic/piano/Satie - Troisieme Gymnopdie.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "The Real Folk Blues - Cowboy Bebop Ending Theme [Piano Arrangement].mp3",
+    "path": "media/music/customPlaylist/instrumental/acoustic/piano/The Real Folk Blues - Cowboy Bebop Ending Theme [Piano Arrangement].mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Valiant-Hearts-Requemby-Alaray.mp3",
+    "path": "media/music/customPlaylist/instrumental/acoustic/piano/Valiant-Hearts-Requemby-Alaray.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Yiruma - river flows in you.mp3",
+    "path": "media/music/customPlaylist/instrumental/acoustic/piano/Yiruma - river flows in you.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "betkhoven - lunnaya sonata.mp3",
+    "path": "media/music/customPlaylist/instrumental/acoustic/piano/betkhoven - lunnaya sonata.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "betkhoven - melodiya slez.mp3",
+    "path": "media/music/customPlaylist/instrumental/acoustic/piano/betkhoven - melodiya slez.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "yann tiersen - la valse d amelie.mp3",
+    "path": "media/music/customPlaylist/instrumental/acoustic/piano/yann tiersen - la valse d amelie.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Я свободен.mp3",
+    "path": "media/music/customPlaylist/instrumental/acoustic/piano/Я свободен.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Charlie Musselwhite - Alicia.mp3",
+    "path": "media/music/customPlaylist/instrumental/harmonica/Charlie Musselwhite - Alicia.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Cowboy Beebop - Spokey Dokey.mp3",
+    "path": "media/music/customPlaylist/instrumental/harmonica/Cowboy Beebop - Spokey Dokey.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "The Seabelts - Digging My Potato.mp3",
+    "path": "media/music/customPlaylist/instrumental/harmonica/The Seabelts - Digging My Potato.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Train Blues.mp3",
+    "path": "media/music/customPlaylist/instrumental/harmonica/Train Blues.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Губная Гармошка И Баян.mp3",
+    "path": "media/music/customPlaylist/instrumental/harmonica/Губная Гармошка И Баян.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Минорный Блюз На Губной Гармошке.mp3",
+    "path": "media/music/customPlaylist/instrumental/harmonica/Минорный Блюз На Губной Гармошке.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Manowar - Today's A GoodDay ToDie.mp3",
+    "path": "media/music/customPlaylist/instrumental/rock/Manowar - Today's A GoodDay ToDie.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Nobodyone - Leerg.mp3",
+    "path": "media/music/customPlaylist/instrumental/rock/Nobodyone - Leerg.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Nobodyone - Set.mp3",
+    "path": "media/music/customPlaylist/instrumental/rock/Nobodyone - Set.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Adele - Skyfall.mp3",
+    "path": "media/music/customPlaylist/other/Adele - Skyfall.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Hans Zimmer - time.guitar.webm",
+    "path": "media/music/customPlaylist/other/Hans Zimmer - time.guitar.webm",
+    "type": "video"
+  },
+  {
+    "name": "Hans Zimmer - time.piano.webm",
+    "path": "media/music/customPlaylist/other/Hans Zimmer - time.piano.webm",
+    "type": "video"
+  },
+  {
+    "name": "Hollow Knight OST + Gods & Nightmares [IWZktANV-D8].mp3",
+    "path": "media/music/customPlaylist/other/Hollow Knight OST + Gods & Nightmares [IWZktANV-D8].mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Vinland saga - piano.mp3",
+    "path": "media/music/customPlaylist/other/Vinland saga - piano.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Wano Theme - One Piece.mp3",
+    "path": "media/music/customPlaylist/other/Wano Theme - One Piece.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "While My Guitar Gently Weeps [KoujdXqptnc].mp3",
+    "path": "media/music/customPlaylist/other/While My Guitar Gently Weeps [KoujdXqptnc].mp3",
+    "type": "audio"
+  },
+  {
+    "name": "kenshi.mp3",
+    "path": "media/music/customPlaylist/other/kenshi.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "traeme paz.mp3",
+    "path": "media/music/customPlaylist/other/traeme paz.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "trigun.webm",
+    "path": "media/music/customPlaylist/other/trigun.webm",
+    "type": "video"
+  },
+  {
+    "name": "oxxxymiron-gde-nas-net_37243669.mp3",
+    "path": "media/music/customPlaylist/oxxxymiron-gde-nas-net_37243669.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Brainstorm - Thunder without rain.mp3",
+    "path": "media/music/customPlaylist/rock/Brainstorm - Thunder without rain.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Europe - The final countdown.mp3",
+    "path": "media/music/customPlaylist/rock/Europe - The final countdown.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Green day - holiday.mp3",
+    "path": "media/music/customPlaylist/rock/Green day - holiday.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Jon Bon Jovi - It's my life.mp3",
+    "path": "media/music/customPlaylist/rock/Jon Bon Jovi - It's my life.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Louna - Моя оборона.mp3",
+    "path": "media/music/customPlaylist/rock/Louna - Моя оборона.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Manowar - The Crown And The Ring.mp3",
+    "path": "media/music/customPlaylist/rock/Manowar - The Crown And The Ring.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Manowar - the gods made heavy metal.mp3",
+    "path": "media/music/customPlaylist/rock/Manowar - the gods made heavy metal.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Queen - Don't Stop Me Now.mp3",
+    "path": "media/music/customPlaylist/rock/Queen - Don't Stop Me Now.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Queen - The Show Must Go On.mp3",
+    "path": "media/music/customPlaylist/rock/Queen - The Show Must Go On.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Queen - We are the champions.mp3",
+    "path": "media/music/customPlaylist/rock/Queen - We are the champions.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Roxette - Sleeping in my car.mp3",
+    "path": "media/music/customPlaylist/rock/Roxette - Sleeping in my car.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "The Cranberries - Zombie.mp3",
+    "path": "media/music/customPlaylist/rock/The Cranberries - Zombie.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Three Days Grace - I hate everything about you.mp3",
+    "path": "media/music/customPlaylist/rock/Three Days Grace/Three Days Grace - I hate everything about you.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Three Days Grace - Pain.mp3",
+    "path": "media/music/customPlaylist/rock/Three Days Grace/Three Days Grace - Pain.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Three Days Grace - Wake up.mp3",
+    "path": "media/music/customPlaylist/rock/Three Days Grace/Three Days Grace - Wake up.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Kipelov - Castlevania.mp3",
+    "path": "media/music/customPlaylist/rock/aria/Kipelov - Castlevania.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Nightwish - Angels Fall First.mp3",
+    "path": "media/music/customPlaylist/rock/nightwish/Nightwish - Angels Fall First.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Nightwish - Creek Marys Blood.mp3",
+    "path": "media/music/customPlaylist/rock/nightwish/Nightwish - Creek Marys Blood.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Nightwish - Nightquest.mp3",
+    "path": "media/music/customPlaylist/rock/nightwish/Nightwish - Nightquest.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Nightwish - Over The Hills And Far Away.mp3",
+    "path": "media/music/customPlaylist/rock/nightwish/Nightwish - Over The Hills And Far Away.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Nightwish - Phantom Of The Opera Live.mp3",
+    "path": "media/music/customPlaylist/rock/nightwish/Nightwish - Phantom Of The Opera Live.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Nightwish - Romanticide.mp3",
+    "path": "media/music/customPlaylist/rock/nightwish/Nightwish - Romanticide.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Nightwish - Sleeping Sun.mp3",
+    "path": "media/music/customPlaylist/rock/nightwish/Nightwish - Sleeping Sun.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Nightwish - The End Of All Hope.mp3",
+    "path": "media/music/customPlaylist/rock/nightwish/Nightwish - The End Of All Hope.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Nightwish - The Kinslayer.mp3",
+    "path": "media/music/customPlaylist/rock/nightwish/Nightwish - The Kinslayer.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Nightwish - The Wayfarer Ever Dream Single.mp3",
+    "path": "media/music/customPlaylist/rock/nightwish/Nightwish - The Wayfarer Ever Dream Single.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Paddy And The Rats - One Last Ale.mp3",
+    "path": "media/music/customPlaylist/rock/paddyhats/Paddy And The Rats - One Last Ale.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "The o reillys and the paddyhats - barrels of whiskey.mp3",
+    "path": "media/music/customPlaylist/rock/paddyhats/The o reillys and the paddyhats - barrels of whiskey.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "The o reillys and the paddyhats - ghost of a soldier.mp3",
+    "path": "media/music/customPlaylist/rock/paddyhats/The o reillys and the paddyhats - ghost of a soldier.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "The o reillys and the paddyhats - irish way.mp3",
+    "path": "media/music/customPlaylist/rock/paddyhats/The o reillys and the paddyhats - irish way.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "The o reillys and the paddyhats - the boxer.mp3",
+    "path": "media/music/customPlaylist/rock/paddyhats/The o reillys and the paddyhats - the boxer.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Rammstein - Amerika.mp3",
+    "path": "media/music/customPlaylist/rock/rammstein/Rammstein - Amerika.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Rammstein - Amour.mp3",
+    "path": "media/music/customPlaylist/rock/rammstein/Rammstein - Amour.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Rammstein - Du Hast .mp3",
+    "path": "media/music/customPlaylist/rock/rammstein/Rammstein - Du Hast .mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Rammstein - Feuer Frei!.mp3",
+    "path": "media/music/customPlaylist/rock/rammstein/Rammstein - Feuer Frei!.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Rammstein - Ich Will.mp3",
+    "path": "media/music/customPlaylist/rock/rammstein/Rammstein - Ich Will.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Rammstein - Mann gegen mann.mp3",
+    "path": "media/music/customPlaylist/rock/rammstein/Rammstein - Mann gegen mann.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Rammstein - Mein Herz Brennt.mp3",
+    "path": "media/music/customPlaylist/rock/rammstein/Rammstein - Mein Herz Brennt.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Rammstein - Morgenstern.mp3",
+    "path": "media/music/customPlaylist/rock/rammstein/Rammstein - Morgenstern.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Rammstein - Mutter.mp3",
+    "path": "media/music/customPlaylist/rock/rammstein/Rammstein - Mutter.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Rammstein - Nichts.mp3",
+    "path": "media/music/customPlaylist/rock/rammstein/Rammstein - Nichts.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Rammstein - Ohne Dich.mp3",
+    "path": "media/music/customPlaylist/rock/rammstein/Rammstein - Ohne Dich.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Rammstein - Reise, Reise.mp3",
+    "path": "media/music/customPlaylist/rock/rammstein/Rammstein - Reise, Reise.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Rammstein - Rine Rause.mp3",
+    "path": "media/music/customPlaylist/rock/rammstein/Rammstein - Rine Rause.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Rammstein - Rosenrot.mp3",
+    "path": "media/music/customPlaylist/rock/rammstein/Rammstein - Rosenrot.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Rammstein - Sonne.mp3",
+    "path": "media/music/customPlaylist/rock/rammstein/Rammstein - Sonne.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Rammstein - Stein um Stein.mp3",
+    "path": "media/music/customPlaylist/rock/rammstein/Rammstein - Stein um Stein.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Rammstein - Stripped.mp3",
+    "path": "media/music/customPlaylist/rock/rammstein/Rammstein - Stripped.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Raygun Cowboys - Break These Chains.mp3",
+    "path": "media/music/customPlaylist/rock/raygun cowboys/Raygun Cowboys - Break These Chains.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Raygun Cowboys - Dont want you anymore.mp3",
+    "path": "media/music/customPlaylist/rock/raygun cowboys/Raygun Cowboys - Dont want you anymore.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Raygun Cowboys - No Peace.mp3",
+    "path": "media/music/customPlaylist/rock/raygun cowboys/Raygun Cowboys - No Peace.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Би2 - Лайки.mp3",
+    "path": "media/music/customPlaylist/rock/Би2 - Лайки.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Вольная Стая - Вернуться назад.mp3",
+    "path": "media/music/customPlaylist/rock/Вольная стая/Вольная Стая - Вернуться назад.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Вольная Стая - Дай Мне Огня.mp3",
+    "path": "media/music/customPlaylist/rock/Вольная стая/Вольная Стая - Дай Мне Огня.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Вольная Стая - Казнь ведьмы.mp3",
+    "path": "media/music/customPlaylist/rock/Вольная стая/Вольная Стая - Казнь ведьмы.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Вольная Стая - Не зови и не проси.mp3",
+    "path": "media/music/customPlaylist/rock/Вольная стая/Вольная Стая - Не зови и не проси.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Вольная Стая - Птицей в небо.mp3",
+    "path": "media/music/customPlaylist/rock/Вольная стая/Вольная Стая - Птицей в небо.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Вольная Стая - Русская Рулетка.mp3",
+    "path": "media/music/customPlaylist/rock/Вольная стая/Вольная Стая - Русская Рулетка.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Вольная Стая - Смотри мне в глаза.mp3",
+    "path": "media/music/customPlaylist/rock/Вольная стая/Вольная Стая - Смотри мне в глаза.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Вольная Стая - Стая.mp3",
+    "path": "media/music/customPlaylist/rock/Вольная стая/Вольная Стая - Стая.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Крама - бяжы хлопец.mp3",
+    "path": "media/music/customPlaylist/rock/Крама - бяжы хлопец.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Кукрыниксы - Дороги.mp3",
+    "path": "media/music/customPlaylist/rock/Кукрыниксы - Дороги.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Машина времени - по дороге в непал.mp3",
+    "path": "media/music/customPlaylist/rock/Машина времени - по дороге в непал.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Ноль - человек и кошка.mp3",
+    "path": "media/music/customPlaylist/rock/Ноль - человек и кошка.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Океан Эльзы - Я не здамся без бою.mp3",
+    "path": "media/music/customPlaylist/rock/Океан Эльзы - Я не здамся без бою.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Провода - глубоко.mp3",
+    "path": "media/music/customPlaylist/rock/Провода - глубоко.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Сектор Газа - Туман.mp3",
+    "path": "media/music/customPlaylist/rock/Сектор Газа - Туман.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "voskresen'e - musykant.mp3",
+    "path": "media/music/customPlaylist/rock/воскресенье/voskresen'e - musykant.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "voskresen'e - nochnaya ptitsa.mp3",
+    "path": "media/music/customPlaylist/rock/воскресенье/voskresen'e - nochnaya ptitsa.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "voskresen'e - opyat' do vremeni otlocheny dela.mp3",
+    "path": "media/music/customPlaylist/rock/воскресенье/voskresen'e - opyat' do vremeni otlocheny dela.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "voskresen'e - proshedshij den.mp3",
+    "path": "media/music/customPlaylist/rock/воскресенье/voskresen'e - proshedshij den.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "ДДТ - На небе вороны.mp3",
+    "path": "media/music/customPlaylist/rock/ддт/ДДТ - На небе вороны.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "ДДТ - Онанист.mp3",
+    "path": "media/music/customPlaylist/rock/ддт/ДДТ - Онанист.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "ДДТ - Расстреляли Рассветами (acoustic).mp3",
+    "path": "media/music/customPlaylist/rock/ддт/ДДТ - Расстреляли Рассветами (acoustic).mp3",
+    "type": "audio"
+  },
+  {
+    "name": "ДДТ - Свобода.mp3",
+    "path": "media/music/customPlaylist/rock/ддт/ДДТ - Свобода.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "ДДТ - Я еду к тебе.mp3",
+    "path": "media/music/customPlaylist/rock/ддт/ДДТ - Я еду к тебе.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "ДДТ – Забери эту ночь.mp3",
+    "path": "media/music/customPlaylist/rock/ддт/ДДТ – Забери эту ночь.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "ДДТ – Капитан Колесников.mp3",
+    "path": "media/music/customPlaylist/rock/ддт/ДДТ – Капитан Колесников.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "ДДТ – Метель (Коронована Луной).mp3",
+    "path": "media/music/customPlaylist/rock/ддт/ДДТ – Метель (Коронована Луной).mp3",
+    "type": "audio"
+  },
+  {
+    "name": "ДДТ – Новая жизнь.mp3",
+    "path": "media/music/customPlaylist/rock/ддт/ДДТ – Новая жизнь.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "ДДТ – Осенняя (OST Ледниковый период).mp3",
+    "path": "media/music/customPlaylist/rock/ддт/ДДТ – Осенняя (OST Ледниковый период).mp3",
+    "type": "audio"
+  },
+  {
+    "name": "ДДТ – Пасха (320 kbitps).mp3",
+    "path": "media/music/customPlaylist/rock/ддт/ДДТ – Пасха (320 kbitps).mp3",
+    "type": "audio"
+  },
+  {
+    "name": "ДДТ – Просвистела.mp3",
+    "path": "media/music/customPlaylist/rock/ддт/ДДТ – Просвистела.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "ДДТ – Расстреляли рассветами.mp3",
+    "path": "media/music/customPlaylist/rock/ддт/ДДТ – Расстреляли рассветами.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "ДДТ – Русская весна.mp3",
+    "path": "media/music/customPlaylist/rock/ддт/ДДТ – Русская весна.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "ДДТ – Свобода (new 2011).mp3",
+    "path": "media/music/customPlaylist/rock/ддт/ДДТ – Свобода (new 2011).mp3",
+    "type": "audio"
+  },
+  {
+    "name": "ДДТ – Это все, что останется после меня.mp3",
+    "path": "media/music/customPlaylist/rock/ддт/ДДТ – Это все, что останется после меня.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "krematorij - 100 let prozhitykh zrya.mp3",
+    "path": "media/music/customPlaylist/rock/крематорий/krematorij - 100 let prozhitykh zrya.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "krematorij - 2001 god.mp3",
+    "path": "media/music/customPlaylist/rock/крематорий/krematorij - 2001 god.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "krematorij - autsider.mp3",
+    "path": "media/music/customPlaylist/rock/крематорий/krematorij - autsider.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "krematorij - bez kriliev kak dim.mp3",
+    "path": "media/music/customPlaylist/rock/крематорий/krematorij - bez kriliev kak dim.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "krematorij - dante alig'ere .mp3",
+    "path": "media/music/customPlaylist/rock/крематорий/krematorij - dante alig'ere .mp3",
+    "type": "audio"
+  },
+  {
+    "name": "krematorij - katmandu.mp3",
+    "path": "media/music/customPlaylist/rock/крематорий/krematorij - katmandu.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "krematorij - musornij veter.mp3",
+    "path": "media/music/customPlaylist/rock/крематорий/krematorij - musornij veter.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "krematorij - sexualnaja koshka.mp3",
+    "path": "media/music/customPlaylist/rock/крематорий/krematorij - sexualnaja koshka.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "krematorij - smerti bolshe net.mp3",
+    "path": "media/music/customPlaylist/rock/крематорий/krematorij - smerti bolshe net.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Мельница - Воин вереска.mp3",
+    "path": "media/music/customPlaylist/rock/мельница/Мельница - Воин вереска.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Мельница - Волкодав.mp3",
+    "path": "media/music/customPlaylist/rock/мельница/Мельница - Волкодав.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Мельница - Дредноут.mp3",
+    "path": "media/music/customPlaylist/rock/мельница/Мельница - Дредноут.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Мельница - Ночная кобыла.mp3",
+    "path": "media/music/customPlaylist/rock/мельница/Мельница - Ночная кобыла.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Мельница - Прощай.mp3",
+    "path": "media/music/customPlaylist/rock/мельница/Мельница - Прощай.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "мельница - дороги.mp3",
+    "path": "media/music/customPlaylist/rock/мельница/мельница - дороги.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "pilot - Блюз.mp3",
+    "path": "media/music/customPlaylist/rock/пилот/pilot - Блюз.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "pilot - Ждите солнца.mp3",
+    "path": "media/music/customPlaylist/rock/пилот/pilot - Ждите солнца.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "pilot - Когда ты вернешся.mp3",
+    "path": "media/music/customPlaylist/rock/пилот/pilot - Когда ты вернешся.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "pilot - Неродина.mp3",
+    "path": "media/music/customPlaylist/rock/пилот/pilot - Неродина.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "pilot - Пешком по шпалам.mp3",
+    "path": "media/music/customPlaylist/rock/пилот/pilot - Пешком по шпалам.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "pilot - Рок.mp3",
+    "path": "media/music/customPlaylist/rock/пилот/pilot - Рок.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "take me to church.mp3",
+    "path": "media/music/customPlaylist/take me to church.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "vinlandSagaEnding.mp3",
+    "path": "media/music/customPlaylist/vinlandSagaEnding.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Ария - Следуй за мной!.mp3",
+    "path": "media/music/customPlaylist/Ария - Следуй за мной!.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Вдруг - Фьорды.mp3",
+    "path": "media/music/customPlaylist/Вдруг - Фьорды.mp3",
+    "type": "audio"
+  },
+  {
+    "name": "Обними кита - однажды.mp3",
+    "path": "media/music/customPlaylist/Обними кита - однажды.mp3",
+    "type": "audio"
+  }
+]

@@ -13,10 +13,12 @@
   "license": "ISC",
   "author": "",
   "type": "module",
-  "main": "generateMusicJson.js",
+  "main": "generateMediaJson.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "index": "node generateMediaJson",
+    "startServer": "node server.js",
+    "start": "npm run index && npm run startServer"
   },
   "dependencies": {
     "express": "^5.1.0"
