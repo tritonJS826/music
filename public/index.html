@@ -98,7 +98,8 @@
       list.innerHTML = "";
       pageItems.forEach((m, idx) => {
         const li = document.createElement("li");
-        li.textContent = `${m.path}`;
+        // get rid of media path at the end
+        li.textContent = `${m.path.replace(/^media\//, "")}`;
         li.onclick = () => playItem(start + idx);
         li.id = `item-${start + idx}`;
         list.appendChild(li);
@@ -115,12 +116,12 @@
       document.getElementById("next").disabled = currentPage >= totalPages;
     }
 
-    function updateURL(query) {
-      const params = new URLSearchParams();
-      if (query) params.set("q", query);
-      if (currentPage > 1) params.set("page", currentPage);
-      params.set("mode", exactMatch ? "exact" : "fuzzy");
-      history.replaceState(null, "", `?${params.toString()}`);
+    function stopAllPlayers() {
+      ["audioPlayer", "videoPlayer"].forEach(id => {
+        const el = document.getElementById(id);
+        el.pause();
+        el.currentTime = 0;
+      });
     }
 
     function hideAllPlayers() {
@@ -134,6 +135,9 @@
       const item = filtered[index];
       const current = document.getElementById("currentTrack");
       currentIndex = index;
+
+      // Stop and hide everything before playing new media
+      stopAllPlayers();
       hideAllPlayers();
 
       const audio = document.getElementById("audioPlayer");

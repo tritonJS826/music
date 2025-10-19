@@ -1428,5 +1428,10 @@
     "name": "Обними кита - однажды.mp3",
     "path": "media/music/customPlaylist/Обними кита - однажды.mp3",
     "type": "audio"
+  },
+  {
+    "name": "2025-10-19_19-12-55.mp4",
+    "path": "media/video/2025-10-19_19-12-55.mp4",
+    "type": "video"
   }
 ]
