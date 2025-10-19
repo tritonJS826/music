@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Music Library</title>
+  <style>
+    body { font-family: sans-serif; max-width: 800px; margin: 40px auto; padding: 0 20px; color: #222; }
+    h1 { text-align: center; margin-bottom: 20px; }
+    input { width: 100%; padding: 10px; font-size: 16px; margin-bottom: 15px; border-radius: 8px; border: 1px solid #ccc; }
+    ul { list-style: none; padding: 0; margin: 0; }
+    li { padding: 8px 0; border-bottom: 1px solid #eee; cursor: pointer; transition: background 0.2s; }
+    li:hover { background: #f6f6f6; }
+    .pagination { display: flex; justify-content: center; gap: 10px; margin-top: 20px; }
+    button { padding: 8px 16px; font-size: 14px; cursor: pointer; border: 1px solid #ccc; background: #fff; border-radius: 6px; }
+    button:hover:not(:disabled) { background: #f0f0f0; }
+    button:disabled { opacity: 0.4; cursor: not-allowed; }
+    .counter { text-align: center; margin-top: 10px; font-size: 14px; color: #666; }
+    audio { width: 100%; margin-top: 20px; border-radius: 8px; }
+  </style>
+</head>
+<body>
+  <h1>🎵 My Music</h1>
+  <input type="text" id="search" placeholder="Search tracks..." />
+  <ul id="list"></ul>
+  <div class="pagination">
+    <button id="prev">◀ Prev</button>
+    <button id="next">Next ▶</button>
+  </div>
+  <div class="counter" id="counter"></div>
+  <audio id="player" controls></audio>
+
+  <script>
+    const ITEMS_PER_PAGE = 10;
+    let music = [];
+    let filtered = [];
+    let currentPage = 1;
+
+    async function loadMusic() {
+      const res = await fetch("music.json");
+      music = await res.json();
+
+      const params = new URLSearchParams(location.search);
+      const q = params.get("q") || "";
+      currentPage = parseInt(params.get("page") || "1", 10);
+
+      document.getElementById("search").value = q;
+      applyFilters(q);
+    }
+
+    function applyFilters(query) {
+      filtered = music.filter(m =>
+        m.name.toLowerCase().includes(query.toLowerCase())
+      );
+      currentPage = Math.min(currentPage, Math.ceil(filtered.length / ITEMS_PER_PAGE) || 1);
+      renderPage();
+      updateURL(query);
+    }
+
+    function renderPage() {
+      const list = document.getElementById("list");
+      const player = document.getElementById("player");
+      const start = (currentPage - 1) * ITEMS_PER_PAGE;
+      const end = start + ITEMS_PER_PAGE;
+      const pageItems = filtered.slice(start, end);
+
+      list.innerHTML = "";
+      pageItems.forEach(m => {
+        const li = document.createElement("li");
+        li.textContent = m.name;
+        li.onclick = () => (player.src = m.path);
+        list.appendChild(li);
+      });
+
+      const totalPages = Math.ceil(filtered.length / ITEMS_PER_PAGE) || 1;
+      document.getElementById("counter").textContent =
+        filtered.length === 0
+          ? "No tracks found"
+          : `Showing ${start + 1}-${Math.min(end, filtered.length)} of ${filtered.length} tracks (Page ${currentPage}/${totalPages})`;
+
+      document.getElementById("prev").disabled = currentPage <= 1;
+      document.getElementById("next").disabled = currentPage >= totalPages;
+    }
+
+    function updateURL(query) {
+      const params = new URLSearchParams();
+      if (query) params.set("q", query);
+      if (currentPage > 1) params.set("page", currentPage);
+      history.replaceState(null, "", `?${params.toString()}`);
+    }
+
+    document.getElementById("search").oninput = e => {
+      currentPage = 1;
+      applyFilters(e.target.value);
+    };
+
+    document.getElementById("prev").onclick = () => {
+      if (currentPage > 1) {
+        currentPage--;
+        renderPage();
+        updateURL(document.getElementById("search").value);
+      }
+    };
+
+    document.getElementById("next").onclick = () => {
+      const totalPages = Math.ceil(filtered.length / ITEMS_PER_PAGE);
+      if (currentPage < totalPages) {
+        currentPage++;
+        renderPage();
+        updateURL(document.getElementById("search").value);
+      }
+    };
+
+    loadMusic();
+  </script>
+</body>
+</html>
+
