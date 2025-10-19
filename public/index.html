@@ -19,6 +19,7 @@
     audio { width: 100%; margin-top: 20px; border-radius: 8px; }
     .search-mode { display: flex; justify-content: center; margin-bottom: 10px; gap: 10px; }
     #currentTrack { text-align: center; margin-top: 10px; font-weight: bold; }
+    .autoplay-next { text-align: center; margin-top: 10px; }
   </style>
 </head>
 <body>
@@ -38,13 +39,17 @@
   <div class="counter" id="counter"></div>
   <audio id="player" controls></audio>
   <div id="currentTrack"></div>
+  <div class="autoplay-next">
+    <label><input type="checkbox" id="autoplayNext" /> Auto-play next track</label>
+  </div>
 
   <script>
     const ITEMS_PER_PAGE = 10;
     let music = [];
     let filtered = [];
     let currentPage = 1;
-    let exactMatch = false; // false = fuzzy, true = exact substring
+    let exactMatch = false;
+    let currentTrackIndex = -1;
 
     async function loadMusic() {
       const res = await fetch("music.json");
@@ -88,12 +93,15 @@
       const pageItems = filtered.slice(start, end);
 
       list.innerHTML = "";
-      pageItems.forEach(m => {
+      pageItems.forEach((m, idx) => {
         const li = document.createElement("li");
         li.textContent = m.path.replace("music/", "");
-        li.onclick = () => playTrack(m.path);
+        li.onclick = () => playTrack(start + idx); // use index in filtered array
+        li.id = `track-${start + idx}`;
         list.appendChild(li);
       });
+
+      highlightCurrentTrack();
 
       const totalPages = Math.ceil(filtered.length / ITEMS_PER_PAGE) || 1;
       document.getElementById("counter").textContent =
@@ -113,13 +121,25 @@
       history.replaceState(null, "", `?${params.toString()}`);
     }
 
-    // Play a track and update display
-    function playTrack(trackPath) {
+    function playTrack(index) {
+      if (index < 0 || index >= filtered.length) return;
+      const trackPath = filtered[index].path;
       const player = document.getElementById("player");
       const current = document.getElementById("currentTrack");
+
+      currentTrackIndex = index;
       player.src = trackPath;
       current.textContent = "Now playing: " + trackPath.replace("music/", "");
       player.play();
+      highlightCurrentTrack();
+    }
+
+    function highlightCurrentTrack() {
+      document.querySelectorAll("#list li").forEach(li => li.style.fontWeight = "normal");
+      if (currentTrackIndex !== -1) {
+        const li = document.getElementById(`track-${currentTrackIndex}`);
+        if (li) li.style.fontWeight = "bold";
+      }
     }
 
     document.getElementById("search").oninput = e => {
@@ -141,6 +161,7 @@
         updateURL(document.getElementById("search").value);
       }
     };
+
     document.getElementById("next").onclick = () => {
       const totalPages = Math.ceil(filtered.length / ITEMS_PER_PAGE);
       if (currentPage < totalPages) {
@@ -152,9 +173,19 @@
 
     document.getElementById("shuffle").onclick = () => {
       if (filtered.length === 0) return alert("No tracks to shuffle!");
-      const randomTrack = filtered[Math.floor(Math.random() * filtered.length)];
-      playTrack(randomTrack.path);
+      const randomIndex = Math.floor(Math.random() * filtered.length);
+      playTrack(randomIndex);
     };
+
+    // Auto-play next track
+    document.getElementById("player").addEventListener("ended", () => {
+      if (document.getElementById("autoplayNext").checked) {
+        const nextIndex = currentTrackIndex + 1;
+        if (nextIndex < filtered.length) {
+          playTrack(nextIndex);
+        }
+      }
+    });
 
     loadMusic();
   </script>
