@@ -5,13 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>My Music Library</title>
   <style>
-    body { font-family: sans-serif; max-width: 800px; margin: 40px auto; padding: 0 20px; color: #222; }
+    body { font-family: sans-serif; margin: 40px auto; padding: 0 20px; color: #222; }
     h1 { text-align: center; margin-bottom: 20px; }
     input { width: 100%; padding: 10px; font-size: 16px; margin-bottom: 15px; border-radius: 8px; border: 1px solid #ccc; }
     ul { list-style: none; padding: 0; margin: 0; }
     li { padding: 8px 0; border-bottom: 1px solid #eee; cursor: pointer; transition: background 0.2s; }
     li:hover { background: #f6f6f6; }
-    .pagination { display: flex; justify-content: center; gap: 10px; margin-top: 20px; }
+    .controls { display: flex; justify-content: center; gap: 10px; margin-top: 20px; flex-wrap: wrap; }
     button { padding: 8px 16px; font-size: 14px; cursor: pointer; border: 1px solid #ccc; background: #fff; border-radius: 6px; }
     button:hover:not(:disabled) { background: #f0f0f0; }
     button:disabled { opacity: 0.4; cursor: not-allowed; }
@@ -23,10 +23,13 @@
   <h1>🎵 My Music</h1>
   <input type="text" id="search" placeholder="Search tracks..." />
   <ul id="list"></ul>
-  <div class="pagination">
+
+  <div class="controls">
     <button id="prev">◀ Prev</button>
     <button id="next">Next ▶</button>
+    <button id="shuffle">🔀 Shuffle</button>
   </div>
+
   <div class="counter" id="counter"></div>
   <audio id="player" controls></audio>
 
@@ -48,10 +51,23 @@
       applyFilters(q);
     }
 
+    // helper for fuzzy search
+    function fuzzyMatch(text, pattern) {
+      if (!pattern) return true;
+      let tIndex = 0;
+      for (let p of pattern) {
+        tIndex = text.indexOf(p, tIndex);
+        if (tIndex === -1) return false;
+        tIndex++;
+      }
+      return true;
+    }
+
     function applyFilters(query) {
-      filtered = music.filter(m =>
-        m.name.toLowerCase().includes(query.toLowerCase())
-      );
+      const q = query.toLowerCase().trim();
+      
+      filtered = music.filter(m => fuzzyMatch(m.path.toLowerCase(), q));
+      
       currentPage = Math.min(currentPage, Math.ceil(filtered.length / ITEMS_PER_PAGE) || 1);
       renderPage();
       updateURL(query);
@@ -67,7 +83,7 @@
       list.innerHTML = "";
       pageItems.forEach(m => {
         const li = document.createElement("li");
-        li.textContent = m.name;
+        li.textContent = m.path.replace("music/", "");
         li.onclick = () => (player.src = m.path);
         list.appendChild(li);
       });
@@ -89,11 +105,13 @@
       history.replaceState(null, "", `?${params.toString()}`);
     }
 
+    // Search
     document.getElementById("search").oninput = e => {
       currentPage = 1;
       applyFilters(e.target.value);
     };
 
+    // Pagination
     document.getElementById("prev").onclick = () => {
       if (currentPage > 1) {
         currentPage--;
@@ -101,7 +119,6 @@
         updateURL(document.getElementById("search").value);
       }
     };
-
     document.getElementById("next").onclick = () => {
       const totalPages = Math.ceil(filtered.length / ITEMS_PER_PAGE);
       if (currentPage < totalPages) {
@@ -111,8 +128,16 @@
       }
     };
 
+    // Shuffle Play
+    document.getElementById("shuffle").onclick = () => {
+      const player = document.getElementById("player");
+      if (filtered.length === 0) return alert("No tracks to shuffle!");
+      const randomTrack = filtered[Math.floor(Math.random() * filtered.length)];
+      player.src = randomTrack.path;
+      player.play();
+    };
+
     loadMusic();
   </script>
 </body>
 </html>
-
