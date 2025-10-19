@@ -1,0 +1,24 @@
+{
+  "name": "webmusic",
+  "version": "1.0.0",
+  "description": "1. Put all your msic into public/music (it could be deep hierarchy 2. Generate music.json using script `generateMusicJson.js` 3. Done! You can publish public folder.",
+  "homepage": "https://github.com/tritonJS826/music#readme",
+  "bugs": {
+    "url": "https://github.com/tritonJS826/music/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tritonJS826/music.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "generateMusicJson.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

@@ -24,5 +24,5 @@ app.use((req, res, next) => {
 app.use(express.static(publicDir, { index: false }));
 
 app.listen(PORT, () => {
-  console.log(`✅ Server running at http://localhost:${PORT}`);
+  console.log(`✅ Server running at http://localhost:${PORT}/index.html`);
 });
