@@ -7,7 +7,7 @@
   <style>
     body { font-family: sans-serif; margin: 40px auto; padding: 0 20px; color: #222; }
     h1 { text-align: center; margin-bottom: 20px; }
-    input { width: 100%; padding: 10px; font-size: 16px; margin-bottom: 15px; border-radius: 8px; border: 1px solid #ccc; }
+    input { width: 100%; padding: 10px; font-size: 16px; margin-bottom: 10px; border-radius: 8px; border: 1px solid #ccc; }
     ul { list-style: none; padding: 0; margin: 0; }
     li { padding: 8px 0; border-bottom: 1px solid #eee; cursor: pointer; transition: background 0.2s; }
     li:hover { background: #f6f6f6; }
@@ -17,11 +17,15 @@
     button:disabled { opacity: 0.4; cursor: not-allowed; }
     .counter { text-align: center; margin-top: 10px; font-size: 14px; color: #666; }
     audio { width: 100%; margin-top: 20px; border-radius: 8px; }
+    .search-mode { display: flex; justify-content: center; margin-bottom: 10px; gap: 10px; }
   </style>
 </head>
 <body>
   <h1>🎵 My Music</h1>
   <input type="text" id="search" placeholder="Search tracks..." />
+  <div class="search-mode">
+    <button id="toggleMode">Mode: Fuzzy</button>
+  </div>
   <ul id="list"></ul>
 
   <div class="controls">
@@ -38,6 +42,7 @@
     let music = [];
     let filtered = [];
     let currentPage = 1;
+    let exactMatch = false; // false = fuzzy, true = exact substring
 
     async function loadMusic() {
       const res = await fetch("music.json");
@@ -51,7 +56,7 @@
       applyFilters(q);
     }
 
-    // helper for fuzzy search
+    // Fuzzy match helper
     function fuzzyMatch(text, pattern) {
       if (!pattern) return true;
       let tIndex = 0;
@@ -65,9 +70,12 @@
 
     function applyFilters(query) {
       const q = query.toLowerCase().trim();
-      
-      filtered = music.filter(m => fuzzyMatch(m.path.toLowerCase(), q));
-      
+
+      filtered = music.filter(m => {
+        const text = m.path.toLowerCase();
+        return exactMatch ? text.includes(q) : fuzzyMatch(text, q);
+      });
+
       currentPage = Math.min(currentPage, Math.ceil(filtered.length / ITEMS_PER_PAGE) || 1);
       renderPage();
       updateURL(query);
@@ -102,13 +110,22 @@
       const params = new URLSearchParams();
       if (query) params.set("q", query);
       if (currentPage > 1) params.set("page", currentPage);
+      params.set("mode", exactMatch ? "exact" : "fuzzy");
       history.replaceState(null, "", `?${params.toString()}`);
     }
 
-    // Search
+    // Search input
     document.getElementById("search").oninput = e => {
       currentPage = 1;
       applyFilters(e.target.value);
+    };
+
+    // Toggle search mode
+    document.getElementById("toggleMode").onclick = () => {
+      exactMatch = !exactMatch;
+      document.getElementById("toggleMode").textContent = `Mode: ${exactMatch ? "Exact" : "Fuzzy"}`;
+      currentPage = 1;
+      applyFilters(document.getElementById("search").value);
     };
 
     // Pagination
