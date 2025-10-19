@@ -11,7 +11,7 @@ function getFiles(dir) {
     const res = path.join(dir, entry.name);
     if (entry.isDirectory()) {
       return getFiles(res);
-    } else if (/\.(mp3|webm|wav|ogg)$/i.test(entry.name)) {
+    } else if (/\.(mp3|flac|webm|wav|ogg)$/i.test(entry.name)) {
       return [{ name: entry.name, path: res.replace("public/", "") }];
     } else {
       return [];
